@@ -130,7 +130,7 @@ class RobTF(nn.Module):
         self.genericblock18 = GenericBlock(thetas_dim=thetas_dim1, seq_len=seq_len, pred_len=pred_len)
 
     def forward(self,x):
-        #[8, 192, 7]
+        
         y = x
         x_back1, x1 = self.genericblock1(x)
         x = y - x_back1
@@ -205,7 +205,7 @@ class RobTF(nn.Module):
 
         forecast = forecast1 + forecast2 + forecast3 + forecast4 + forecast5 + forecast6
         forecast = forecast.transpose(1, 2)
-        #print("forecast", forecast.shape)
+        
 
         return forecast
 
