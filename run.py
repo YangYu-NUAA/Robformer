@@ -10,7 +10,7 @@ random.seed(fix_seed)
 torch.manual_seed(fix_seed)
 np.random.seed(fix_seed)
 #initial
-parser = argparse.ArgumentParser(description='Autoformer & Transformer family for Time Series Forecasting')
+parser = argparse.ArgumentParser(description='Robformer & Transformer family for Time Series Forecasting')
 
 # basic config
 parser.add_argument('--is_training', type=int, required=True, default=1, help='status')
