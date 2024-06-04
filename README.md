@@ -1,5 +1,5 @@
 # Robformer
-An official implementation of Robformer: Towards the Decomposition Transformer Bottlenecks in Multivariate Series Forecasting
+An official implementation of Robformer: A Robust Decomposition Transformer for Long-term Time Series Forecasting
 
 The code may have errors due to time constraints.
 
